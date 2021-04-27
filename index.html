@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakuten TV</title>
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- MOBILE NAVIGATION TOP -->
+        <nav class="flex nav-logo desktop--d-none">
+            <div>
+                <svg height="35" viewBox="0 0 187 42" width="122" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#fff" fill-rule="evenodd">
+                        <path
+                            d="m162.126 10.7207c-.054-.891-.075-1.259.593-1.663.467-.283 3.036-1.768 7.653-3.196.57-.178 1.09-.066 1.422.307.345.389.419.983.181 1.509-.433.952-.55 1.847-.068 2.224.395.309.782.418 1.982-.207 1.573-.821 3.433-2.885 3.32-6.274-.041-1.213-.495-2.119-1.349-2.695-.806-.544-1.888-.726-2.988-.726-2.999 0-4.453.746-8.406 2.158-5.48 1.958-12.385 4.246-16.209 5.186-1.572.386-2.948 1.543-2.948 3.131 0 2.512 3.026 3.152 5.096 2.459.435-.145 4.729-1.692 6.25-1.887.217-.028.322.053.339.212.025.209.118 2.362.158 3.335.169 4.105.515 12.084.547 12.642.062 1.058.07 4.386 1.882 4.386 1.685 0 2.497-1.8 2.924-4.386.601-3.656.1-8.888-.143-13.071-.069-1.181-.236-3.444-.236-3.444">
+                        </path>
+                        <path
+                            d="m184.6924 4.1435c-2.267 0-4.425 4.197-5.978 7.923-1.96 4.711-3.058 8.941-3.716 10.348-.517-1.36-1.872-5.359-2.563-6.809-1.176-2.471-2.432-4.368-4.029-4.368-.892 0-1.949.548-1.949 2.135 0 1.125.466 2.531.953 3.826.155.416 3.208 7.814 3.645 9.181 0 0 1.456 4.474 1.588 4.869.891 2.681 1.729 3.02 2.293 3.02.919 0 2.17-.37 2.809-3.107.406-1.745.986-3.728 1.481-5.352.898-2.94 3.146-8.501 4.592-11.886 1.173-2.745 2.645-5.907 2.645-7.871 0-.931-.393-1.909-1.771-1.909">
+                        </path>
+                        <path d="m111.2695 35.3252h-83.625l6.661 6.661z"></path>
+                        <path
+                            d="m30.5391 26.166c-2.889 0-5.004-2.844-5.004-6.438 0-3.591 2.115-6.436 5.004-6.436 2.893 0 4.931 2.845 4.931 6.436 0 3.594-2.038 6.438-4.931 6.438zm4.852-17.784v1.007c-1.552-.989-2.945-1.565-4.852-1.565-5.858 0-10.309 5.343-10.309 11.904 0 6.563 4.451 11.902 10.309 11.902 1.907 0 3.3-.572 4.852-1.563v1.006h5.15v-22.691z">
+                        </path>
+                        <path
+                            d="m76.6465 8.3818v13.33c0 2.5-1.719 4.612-4.221 4.612-2.5 0-4.218-2.112-4.218-4.612v-13.33h-5.151v13.33c0 5.469 3.741 9.919 9.212 9.919 2.533 0 4.378-1.401 4.378-1.401v.843h5.149v-22.691z">
+                        </path>
+                        <path
+                            d="m124.6328 31.0732v-13.33c0-2.501 1.718-4.612 4.22-4.612 2.5 0 4.219 2.111 4.219 4.612v13.33h5.151v-13.33c0-5.469-3.742-9.919-9.213-9.919-2.533 0-4.377 1.401-4.377 1.401v-.843h-5.15v22.691z">
+                        </path>
+                        <path
+                            d="m95.6768 25.7036c-.463.314-1.047.558-1.723.558-.84 0-2.427-.642-2.427-2.784v-9.71h4.404v-5.386h-4.404v-5.655h-5.151l.001 5.655h-2.725v5.386h2.725v9.789c-.002 5.067 3.816 8.093 7.655 8.093 1.432 0 3.418-.468 5.039-1.428z">
+                        </path>
+                        <path
+                            d="m53.3447 19.018 8.834-10.636h-7.219l-6.178 7.905v-15.434h-5.304v30.22h5.304v-9.321l7.595 9.321h7.216z">
+                        </path>
+                        <path
+                            d="m112.0684 16.7983h-9.275c1.083-5.314 8.271-5.62 9.275 0m-4.496-8.993c-5.961 0-10.236 5.239-10.236 11.922 0 7.028 5.366 11.924 10.748 11.924 2.715 0 6.196-.932 9.121-5.08l-4.549-2.627c-3.519 5.186-9.382 2.554-10.059-2.632l14.835.004c1.27-8.15-4.001-13.511-9.86-13.511">
+                        </path>
+                        <path
+                            d="m5.3857 8.1088h3.516c2.418 0 4.396 1.968 4.396 4.391 0 2.43-1.978 4.396-4.396 4.396h-3.516zm0 22.964v-8.791h3.811l6.594 8.791h6.743l-7.969-10.608c2.483-1.782 4.115-4.681 4.115-7.965 0-5.393-4.386-9.773-9.778-9.773h-8.902v28.346z">
+                        </path>
+                    </g>
+                </svg>
+            </div>
+
+            <nav class="nav__item--hover">
+                <i class="fas fa-search nav__i--white"></i>
+                <input type="text" id="search" name="search" class="input-search" placeholder="Buscar">
+            </nav>
+        </nav>
+
+        <!-- MOBILE NAVIGATION BOTTOM -->
+        <nav class="desktop--d-none flex nav-navigator">
+            <ul class="flex">
+                <li><i class="fas fa-home"></i>PORTADA</li>
+                <li><i class="fas fa-film"></i>CINEMA</li>
+                <li><i class="fas fa-eye"></i>FREE</li>
+                <li><i class="fas fa-eye"></i>SUBSCRIPTION</li>
+                <li><i class="fas fa-user"></i>ENTRAR</li>
+            </ul>
+        </nav>
+
+        <!-- DESKTOP NAVIGATION -->
+        <nav class="flex nav-desktop mobile--d-none">
+            <ul class="flex">
+                <li><svg height="27" viewBox="0 0 187 42" width="122" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="#fff" fill-rule="evenodd">
+                            <path
+                                d="m162.126 10.7207c-.054-.891-.075-1.259.593-1.663.467-.283 3.036-1.768 7.653-3.196.57-.178 1.09-.066 1.422.307.345.389.419.983.181 1.509-.433.952-.55 1.847-.068 2.224.395.309.782.418 1.982-.207 1.573-.821 3.433-2.885 3.32-6.274-.041-1.213-.495-2.119-1.349-2.695-.806-.544-1.888-.726-2.988-.726-2.999 0-4.453.746-8.406 2.158-5.48 1.958-12.385 4.246-16.209 5.186-1.572.386-2.948 1.543-2.948 3.131 0 2.512 3.026 3.152 5.096 2.459.435-.145 4.729-1.692 6.25-1.887.217-.028.322.053.339.212.025.209.118 2.362.158 3.335.169 4.105.515 12.084.547 12.642.062 1.058.07 4.386 1.882 4.386 1.685 0 2.497-1.8 2.924-4.386.601-3.656.1-8.888-.143-13.071-.069-1.181-.236-3.444-.236-3.444">
+                            </path>
+                            <path
+                                d="m184.6924 4.1435c-2.267 0-4.425 4.197-5.978 7.923-1.96 4.711-3.058 8.941-3.716 10.348-.517-1.36-1.872-5.359-2.563-6.809-1.176-2.471-2.432-4.368-4.029-4.368-.892 0-1.949.548-1.949 2.135 0 1.125.466 2.531.953 3.826.155.416 3.208 7.814 3.645 9.181 0 0 1.456 4.474 1.588 4.869.891 2.681 1.729 3.02 2.293 3.02.919 0 2.17-.37 2.809-3.107.406-1.745.986-3.728 1.481-5.352.898-2.94 3.146-8.501 4.592-11.886 1.173-2.745 2.645-5.907 2.645-7.871 0-.931-.393-1.909-1.771-1.909">
+                            </path>
+                            <path d="m111.2695 35.3252h-83.625l6.661 6.661z"></path>
+                            <path
+                                d="m30.5391 26.166c-2.889 0-5.004-2.844-5.004-6.438 0-3.591 2.115-6.436 5.004-6.436 2.893 0 4.931 2.845 4.931 6.436 0 3.594-2.038 6.438-4.931 6.438zm4.852-17.784v1.007c-1.552-.989-2.945-1.565-4.852-1.565-5.858 0-10.309 5.343-10.309 11.904 0 6.563 4.451 11.902 10.309 11.902 1.907 0 3.3-.572 4.852-1.563v1.006h5.15v-22.691z">
+                            </path>
+                            <path
+                                d="m76.6465 8.3818v13.33c0 2.5-1.719 4.612-4.221 4.612-2.5 0-4.218-2.112-4.218-4.612v-13.33h-5.151v13.33c0 5.469 3.741 9.919 9.212 9.919 2.533 0 4.378-1.401 4.378-1.401v.843h5.149v-22.691z">
+                            </path>
+                            <path
+                                d="m124.6328 31.0732v-13.33c0-2.501 1.718-4.612 4.22-4.612 2.5 0 4.219 2.111 4.219 4.612v13.33h5.151v-13.33c0-5.469-3.742-9.919-9.213-9.919-2.533 0-4.377 1.401-4.377 1.401v-.843h-5.15v22.691z">
+                            </path>
+                            <path
+                                d="m95.6768 25.7036c-.463.314-1.047.558-1.723.558-.84 0-2.427-.642-2.427-2.784v-9.71h4.404v-5.386h-4.404v-5.655h-5.151l.001 5.655h-2.725v5.386h2.725v9.789c-.002 5.067 3.816 8.093 7.655 8.093 1.432 0 3.418-.468 5.039-1.428z">
+                            </path>
+                            <path
+                                d="m53.3447 19.018 8.834-10.636h-7.219l-6.178 7.905v-15.434h-5.304v30.22h5.304v-9.321l7.595 9.321h7.216z">
+                            </path>
+                            <path
+                                d="m112.0684 16.7983h-9.275c1.083-5.314 8.271-5.62 9.275 0m-4.496-8.993c-5.961 0-10.236 5.239-10.236 11.922 0 7.028 5.366 11.924 10.748 11.924 2.715 0 6.196-.932 9.121-5.08l-4.549-2.627c-3.519 5.186-9.382 2.554-10.059-2.632l14.835.004c1.27-8.15-4.001-13.511-9.86-13.511">
+                            </path>
+                            <path
+                                d="m5.3857 8.1088h3.516c2.418 0 4.396 1.968 4.396 4.391 0 2.43-1.978 4.396-4.396 4.396h-3.516zm0 22.964v-8.791h3.811l6.594 8.791h6.743l-7.969-10.608c2.483-1.782 4.115-4.681 4.115-7.965 0-5.393-4.386-9.773-9.778-9.773h-8.902v28.346z">
+                            </path>
+                        </g>
+                    </svg></li>
+                <li id="cinema-nav" class="hover--yellow"><span>CINEMA</span>
+                    <span class="icon--rotate"><i class="fas fa-sort-down"></i></span>
+                    <div class="dropdown-nav">
+                        <p class="hover__p--yellow">TOTS ELS GÈNERES</p>
+                        <p class="hover__p--yellow">FAMILIA</p>
+                    </div>
+                </li>
+
+                <li class="hover--yellow"><span>FREE</span></li>
+                <li class="hover--yellow"><span>SUBSCRIPTION</span></li>
+                <li><input type="text" id="search" name="search" class="input-desktop-search" placeholder="Buscar"></li>
+                <li class="item--grey hover--yellow"><span>AYUDA I DISPOSITIVOS</span></li>
+                <li class="hover--yellow"><span>ENTRAR</span></li>
+                <li><button class="button--yellow hover--yellow" type="button"><span>REGISTRARSE</span></button></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- SLIDER -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/rtv-suscripcion-generic-slider-vis-reg-1610705455-width1920-quality80.png"
+                    class="d-block w-100" alt="Imagen slider entretenimiento">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/greenland-slider-1610700030-width1920-quality80.jpeg" class="d-block w-100"
+                    alt="Imagen slider película Grrenland">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                    <p>.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/pinochi-slider-1610354636-width1920-quality80.jpeg" class="d-block w-100"
+                    alt="Imagen slider película Pinochio">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+
+    <!-- FEATURED -->
+    <section class="section-featured">
+        <div class="scrollmenu horizontal-scrollbar">
+            <a class="featured-container" href="detail.html"></a>
+            <a class="featured-container" href="detail.html"></a>
+            <a class="featured-container" href="detail.html"></a>
+            <a class="featured-container" href="detail.html"></a>
+            <a class="featured-container" href="detail.html"></a>
+            <a class="featured-container" href="detail.html"></a>
+        </div>
+    </section>
+
+
+    <!-- CATGERORY ACTION -->
+    <section class="section-category">
+        <a href="detail.html">
+            <h4>Acció</h4>
+        </a>
+        <div class="scrollmenu horizontal-scrollbar">
+            <a class="category-container  container__detail" href="detail.html">
+                <div class="detail__content">
+                    <h3>Títol</h3>
+                    <div>
+                        <button><i class="fas fa-play"></i> Tràiler</button>
+                        <button><i class="fas fa-thumbtack"></i> Tràiler</button>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur<br>
+                    </p>
+                    <h5>VEURE ARA DES DE 2,99€</h5>
+                </div>
+            </a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+            <a class="category-container" href="detail.html"></a>
+        </div>
+    </section>
+
+    <!-- SECTION GENDERS -->
+    <section class="flex gender">
+        <div class=" flex gender__text">
+            <h4>Gèneres <i class="fas fa-chevron-right desktop--d-none"></i></h4>
+            <p class="mobile--d-none">VEURE TOT <i class="fas fa-chevron-right"></i></p>
+        </div>
+
+        <ul class="flex gender__items">
+            <li><img src="images/generes/tot_contingut.png" alt="Imatge gènere">
+                <p>Tot el contingut</p>
+            </li>
+            <li><img src="images/generes/accio.png" alt="Imatge gènere acció">
+                <p>Acció</p>
+            </li>
+            <li><img src="images/generes/animacio.png" alt="Imatge gènere animació">
+                <p>Animació</p>
+            </li>
+            <li><img src="images/generes/avntures.png" alt="Imatge gènere aventures">Aventures</li>
+            <li><img src="images/generes/guerra.png" alt="Imatge gènere guerra">Violència</li>
+            <li><img src="images/generes/ciencia_ficcio.png" alt="Imatge gènere ciència ficció">Ciència ficció</li>
+            <li><img src="images/generes/autor.png" alt="Imatge gènere cinema d'autor">Cinema d'autor</li>
+            <li><img src="images/generes/familiar.png" alt="Imatge gènere cinema familiar">Cinema familiar</li>
+            <li><img src="images/generes/infantil.png" alt="Imatge gènere infantil">Infantil</li>
+        </ul>
+    </section>
+
+    <!-- SECTION HOME -->
+    <section class="flex section-home section__home--d-none">
+        <div class="home__text">
+            <h4>Rakuten Tv - Cinema a casa</h4>
+            <p>Rakuten TV provides a series of services that offer a whole universe of content in just a few clicks.
+                Enjoy a true cinematic experience with the latest releases, premium subscription services, and a host of
+                free themed channels, including Movies, Euronews, Kids TV, Viki, Documentaries and Rakuten Stories, a
+                channel that incorporates original and exclusive content from Rakuten TV .</p>
+        </div>
+        <div class="flex home__details">
+            <div class="home__items">
+                <img src="images/home/howitworks-555729f452.png" alt="Imatge de com funciona">
+                <h4>Com funciona</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="home__items">
+                <img src="images/home/payments-ec797a77da.png" alt="Imatge sistemes de pagament">
+                <h4>Formes de pagament</h4>
+                <p>Autem accusamus dolorem quas, consequuntur velit qui explicabo! </p>
+            </div>
+            <div class="home__items">
+                <img src="images/home/support-cd17a5040b.png" alt="">
+                <h4>Ajuda i suport</h4>
+                <p>Quia nesciunt facilis ipsa sint dolor
+                    quos aspernatur nobis animi deserunt accusamus! Quae, laborum.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="flex footer-rakuten">
+
+        <a href="detail.html"><svg height="28" viewBox="0 0 187 42" width="122" xmlns="http://www.w3.org/2000/svg">
+                <g fill="#999" fill-rule="evenodd">
+                    <path
+                        d="m162.126 10.7207c-.054-.891-.075-1.259.593-1.663.467-.283 3.036-1.768 7.653-3.196.57-.178 1.09-.066 1.422.307.345.389.419.983.181 1.509-.433.952-.55 1.847-.068 2.224.395.309.782.418 1.982-.207 1.573-.821 3.433-2.885 3.32-6.274-.041-1.213-.495-2.119-1.349-2.695-.806-.544-1.888-.726-2.988-.726-2.999 0-4.453.746-8.406 2.158-5.48 1.958-12.385 4.246-16.209 5.186-1.572.386-2.948 1.543-2.948 3.131 0 2.512 3.026 3.152 5.096 2.459.435-.145 4.729-1.692 6.25-1.887.217-.028.322.053.339.212.025.209.118 2.362.158 3.335.169 4.105.515 12.084.547 12.642.062 1.058.07 4.386 1.882 4.386 1.685 0 2.497-1.8 2.924-4.386.601-3.656.1-8.888-.143-13.071-.069-1.181-.236-3.444-.236-3.444" />
+                    <path
+                        d="m184.6924 4.1435c-2.267 0-4.425 4.197-5.978 7.923-1.96 4.711-3.058 8.941-3.716 10.348-.517-1.36-1.872-5.359-2.563-6.809-1.176-2.471-2.432-4.368-4.029-4.368-.892 0-1.949.548-1.949 2.135 0 1.125.466 2.531.953 3.826.155.416 3.208 7.814 3.645 9.181 0 0 1.456 4.474 1.588 4.869.891 2.681 1.729 3.02 2.293 3.02.919 0 2.17-.37 2.809-3.107.406-1.745.986-3.728 1.481-5.352.898-2.94 3.146-8.501 4.592-11.886 1.173-2.745 2.645-5.907 2.645-7.871 0-.931-.393-1.909-1.771-1.909" />
+                    <path d="m111.2695 35.3252h-83.625l6.661 6.661z" />
+                    <path
+                        d="m30.5391 26.166c-2.889 0-5.004-2.844-5.004-6.438 0-3.591 2.115-6.436 5.004-6.436 2.893 0 4.931 2.845 4.931 6.436 0 3.594-2.038 6.438-4.931 6.438zm4.852-17.784v1.007c-1.552-.989-2.945-1.565-4.852-1.565-5.858 0-10.309 5.343-10.309 11.904 0 6.563 4.451 11.902 10.309 11.902 1.907 0 3.3-.572 4.852-1.563v1.006h5.15v-22.691z" />
+                    <path
+                        d="m76.6465 8.3818v13.33c0 2.5-1.719 4.612-4.221 4.612-2.5 0-4.218-2.112-4.218-4.612v-13.33h-5.151v13.33c0 5.469 3.741 9.919 9.212 9.919 2.533 0 4.378-1.401 4.378-1.401v.843h5.149v-22.691z" />
+                    <path
+                        d="m124.6328 31.0732v-13.33c0-2.501 1.718-4.612 4.22-4.612 2.5 0 4.219 2.111 4.219 4.612v13.33h5.151v-13.33c0-5.469-3.742-9.919-9.213-9.919-2.533 0-4.377 1.401-4.377 1.401v-.843h-5.15v22.691z" />
+                    <path
+                        d="m95.6768 25.7036c-.463.314-1.047.558-1.723.558-.84 0-2.427-.642-2.427-2.784v-9.71h4.404v-5.386h-4.404v-5.655h-5.151l.001 5.655h-2.725v5.386h2.725v9.789c-.002 5.067 3.816 8.093 7.655 8.093 1.432 0 3.418-.468 5.039-1.428z" />
+                    <path
+                        d="m53.3447 19.018 8.834-10.636h-7.219l-6.178 7.905v-15.434h-5.304v30.22h5.304v-9.321l7.595 9.321h7.216z" />
+                    <path
+                        d="m112.0684 16.7983h-9.275c1.083-5.314 8.271-5.62 9.275 0m-4.496-8.993c-5.961 0-10.236 5.239-10.236 11.922 0 7.028 5.366 11.924 10.748 11.924 2.715 0 6.196-.932 9.121-5.08l-4.549-2.627c-3.519 5.186-9.382 2.554-10.059-2.632l14.835.004c1.27-8.15-4.001-13.511-9.86-13.511" />
+                    <path
+                        d="m5.3857 8.1088h3.516c2.418 0 4.396 1.968 4.396 4.391 0 2.43-1.978 4.396-4.396 4.396h-3.516zm0 22.964v-8.791h3.811l6.594 8.791h6.743l-7.969-10.608c2.483-1.782 4.115-4.681 4.115-7.965 0-5.393-4.386-9.773-9.778-9.773h-8.902v28.346z" />
+                </g>
+            </svg></a>
+        <ul class="flex footer__nav">
+            <a href="detail.html">
+                <li>Sobre Rakuten</li>
+            </a>
+            <a href="detail.html">
+                <li>Qui som</li>
+            </a>
+            <a href="detail.html">
+                <li>Condicions d'ús</li>
+            </a>
+            <a href="detail.html">
+                <li>Política de privacitat i cookies</li>
+            </a>
+            <a href="detail.html">
+                <li>Treballa amb nosaltres</li>
+            </a>
+
+        </ul>
+    </footer>
+    <footer class="copyrigt">
+        <p>2009 - 2021 © Rakuten TV Europe, S.L.U. - v1.855.0</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
